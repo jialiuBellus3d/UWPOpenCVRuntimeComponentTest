@@ -16,7 +16,7 @@ double JiaClass::add(double a, double b)
 	return MathFuncs::MyMathFuncs::Add(a, b);
 }
 
-//void JiaClass::createEmptyMat()
-//{
-//	cv::Mat Scribble = cv::Mat::zeros(250, 250, CV_8UC3);
-//}
+void JiaClass::createEmptyMat()
+{
+	cv::Mat Scribble = cv::Mat::zeros(250, 250, CV_8UC3);
+}
