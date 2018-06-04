@@ -5,6 +5,5 @@ x64/Release/*
 x64/Debug/*
 WindowsRuntimeComponent1/x64/Debug/*
 SampleAppUWP/x64/Debug/*
-thirdparty/opencv3.3.0/*
 SampleAppUWP/x64/Release/*
 SampleAppUWP/Debug/*
