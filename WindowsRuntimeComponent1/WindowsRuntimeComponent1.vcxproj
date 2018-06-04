@@ -190,7 +190,7 @@
       <SubSystem>Console</SubSystem>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <AdditionalLibraryDirectories>$(ProjectDir)..\thirdparty\TestStaticLib\lib\$(ConfigurationName);$(ProjectDir)..\thirdparty\opencv3.3.0\lib\$(ConfigurationName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>TestStaticLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>TestStaticLib.lib;opencv_core330d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
